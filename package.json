@@ -1,12 +1,13 @@
 {
   "name": "salgado-assessment-system",
-  "version": "4.2.0",
-  "description": "Enterprise-grade Salgado Availability Assessment System (SAAS)",
+  "version": "5.0.0",
+  "description": "Vai Ter Salgado? - Salgado Assessment System",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "lint": "eslint src/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -16,7 +17,22 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^25.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.58.2",
+    "@typescript-eslint/parser": "^8.58.2",
     "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "postcss": "^8.5.10",
+    "prettier": "^3.8.3",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.3",
     "vite": "^5.1.0"
   }
 }
